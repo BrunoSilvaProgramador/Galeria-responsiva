@@ -1,2 +1,2 @@
 # Galeria-responsiva
- teste de uma galeria responsiva
+ Teste de uma galeria responsiva
