@@ -31,9 +31,9 @@ html, body{
 }
 .img-wraper{
     width: 33.33%;
-    padding-top: calc(33.33% / 1.7);
+    aspect-ratio: 12/10;
     float: left;
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     position: relative;
 }
 .img{
@@ -44,7 +44,16 @@ html, body{
     height: 100%;
     border: 10px solid white;
     background-position: center;
-    background-size: contain;
-    background-image: url('../imagens/img.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
+}
+@media screen and (max-width:500px){
+    .img-wraper{
+        width: 50%;
+    }
+}
+@media screen and (max-width:300px){
+    .img-wraper{
+        width: 100%;
+    }
 }
