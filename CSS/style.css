@@ -23,7 +23,7 @@ html, body{
     clear: both;
 }
 #modal_img{
-    width: 70vw;
+    width: 60vw;
     transform: scale(0);
     transition: all linear 0.3s;
 }
