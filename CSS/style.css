@@ -103,6 +103,14 @@ html, body{
     .img-wraper{
         width: 50%;
     }
+    #modal_img{
+        width: 60vh;
+
+    }
+    .modal_content{
+        transform: rotate(90deg);
+    }
+    
 }
 @media screen and (max-width:300px){
     .img-wraper{
