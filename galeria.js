@@ -3,7 +3,6 @@ var imagens = [
     'imagens/img.jpg',
     'imagens/img.jpg',
     'imagens/img.jpg',
-
 ]
 
 var quant = imagens.length
